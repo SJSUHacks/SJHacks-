@@ -1,6 +1,9 @@
+import Navbar from "@/components/Navbar";
 import RightArrow from "../components/RightArrow";
 import Image from "next/image";
 import Link from "next/link";
+import { FaInstagram } from "react-icons/fa";
+import { MdOutlineEmail } from "react-icons/md";
 
 export default function Home() {
   return (
@@ -12,38 +15,15 @@ export default function Home() {
             src="/assets/design.svg"
             alt="San Jose Skyline"
             fill
-            style={{ objectFit: "cover", objectPosition: "center" }}
+            className="object-cover object-center"
             priority
           />
         </div>
 
         {/* Navigation */}
-        <nav className="relative z-10 flex justify-between items-center p-6">
-          <div>
-            <Image
-              src="/assets/logo.svg"
-              alt="SJHacks Logo"
-              width={50}
-              height={50}
-            />
-          </div>
-          <div className="flex gap-8 items-center">
-            <Link href="/" className="text-[#01404B] font-medium">
-              Home
-            </Link>
-            <Link href="#about" className="text-[#01404B] font-medium">
-              About Us
-            </Link>
-            <Link
-              href="#sponsor"
-              className="border-2 border-[#01404B] px-4 py-2 rounded-md text-[#01404B] font-medium hover:bg-[#01404B] hover:text-[#ffe88a]"
-            >
-              Sponsor Us
-            </Link>
-          </div>
-        </nav>
+        <Navbar />
 
-        <div className="relative z-10 flex items-center justify-center flex-col pt-12 space-y-3">
+        <div className="relative flex items-center justify-center flex-col pt-12 space-y-3">
           <h2 className="font-semibold text-2xl">April 8th - 9th, 2025</h2>
           <h1 className="font-extrabold text-6xl">&lt;SJHacks/&gt;</h1>
           <button className="group font-medium text-2xl bg-[#01404B] bg-opacity-90 py-2 px-10 rounded-md text-[#FFE375] flex items-center gap-x-2">
@@ -142,20 +122,10 @@ export default function Home() {
           <div className="bg-[#0097B2] mx-auto pt-36 pb-12 -mt-1">
             <div className="flex justify-center gap-6 mb-2">
               <Link href="https://instagram.com" aria-label="Instagram">
-                <Image
-                  src="/assets/instagram.svg"
-                  alt="Instagram"
-                  width={40}
-                  height={40}
-                />
+                <FaInstagram size={42} />
               </Link>
               <Link href="mailto:contact@sjhacks.org" aria-label="Email">
-                <Image
-                  src="/assets/email.svg"
-                  alt="Email"
-                  width={42}
-                  height={42}
-                />
+                <MdOutlineEmail size={42} />
               </Link>
             </div>
             <p className="text-base">Made with love, by the SJHacks Team</p>
