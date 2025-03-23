@@ -13,7 +13,7 @@ const AboutSection: React.FC = () => {
               <p className="about-text">
                 SJHacks is a 24-hour, in-person hackathon in San Jose 
                 designed to bring together changemakers from all 
-                backgrounds. Whether you're a coder, designer, or just 
+                backgrounds. Whether you are a coder, designer, or just 
                 passionate about solving problems, this event offers a 
                 space for you to collaborate, innovate, and create solutions 
                 that make a difference.

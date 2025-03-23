@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const HeroSection: React.FC = () => {
   return (
@@ -9,18 +10,18 @@ const HeroSection: React.FC = () => {
         
         <div className="holder">
           <h2 className="tagline">
-            Join SJSU's <span className="yellow">biggest interdisciplinary hackathon</span> of 
+            Join SJSU&apos;s <span className="yellow">biggest interdisciplinary hackathon</span> of 
             Silicon Valley and be the <span className="yellow">first</span> to know when 
             the <span className="yellow">applications</span> are live!
           </h2>
           
           <div className="details">
             <div className="info">
-              <img src="/assets/calendar.svg" alt="SiliconXHacks Date" className="infologo" />
+              <Image src="/assets/calendar.svg" alt="SiliconXHacks Date" className="infologo" width={24} height={24} />
               April 2025
             </div>
             <div className="info">
-              <img src="/assets/location.svg" alt="SiliconXHacks location" className="infologo" />
+              <Image src="/assets/location.svg" alt="SiliconXHacks location" className="infologo" width={24} height={24} />
               San Jose State University
             </div>
           </div>

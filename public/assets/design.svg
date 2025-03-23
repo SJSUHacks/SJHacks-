@@ -8,7 +8,7 @@
       }
 
       .cls-2 {
-      fill: #ffdd50;
+      fill:rgb(230, 209, 124);
       }
 
       .cls-3 {
@@ -145,7 +145,7 @@
       }
 
       .cls-39, .cls-21 {
-      fill: #ffde59;
+      fill: #ffe88d;
       }
 
       .cls-40 {

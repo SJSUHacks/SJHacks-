@@ -8,7 +8,7 @@ import { MdOutlineEmail } from "react-icons/md";
 export default function Home() {
   return (
     <div>
-      <div className="relative bg-gradient-to-b from-[#FFE98F] to-[#FFDE59] text-[#01404B] h-screen">
+      <div className="relative bg-gradient-to-b from-[#FFF3B8] to-[#FFE88D] text-[#01404B] h-screen">
         {/* SVG Background */}
         <div className="absolute inset-0 z-0">
           <Image
@@ -44,7 +44,7 @@ export default function Home() {
                 <p className="text-xl text-[#01404B] leading-relaxed">
                   SJHacks is a 24-hour, in-person hackathon in San Jose designed
                   to bring together changemakers from all backgrounds. Whether
-                  you're a coder, designer, or just passionate about solving
+                  you are a coder, designer, or just passionate about solving
                   problems, this event offers a space for you to collaborate,
                   innovate, and create solutions that make a difference.
                 </p>
