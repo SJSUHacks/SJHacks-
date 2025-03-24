@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaInstagram } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
+import RegisterButton from '@/components/sections/RegisterButton';
 
 export default function Home() {
   return (
@@ -26,10 +27,7 @@ export default function Home() {
         <div className="relative flex items-center justify-center flex-col pt-12 space-y-3">
           <h2 className="font-semibold text-2xl">April 8th - 9th, 2025</h2>
           <h1 className="font-extrabold text-6xl">&lt;SJHacks/&gt;</h1>
-          <button className="group font-medium text-2xl bg-[#01404B] bg-opacity-90 py-2 px-10 rounded-md text-[#FFE375] flex items-center gap-x-2">
-            Register
-            <RightArrow className="transition-transform transform group-hover:translate-x-2" />
-          </button>
+          <RegisterButton />
         </div>
       </div>
       <div className="bg-gradient-to-b from-[#31F5FF] to-[#B0FBFF]">
