@@ -1,5 +1,5 @@
 import Navbar from "@/components/Navbar";
-import RightArrow from "../components/RightArrow";
+// import RightArrow from "../components/RightArrow";
 import Image from "next/image";
 import Link from "next/link";
 import { FaInstagram } from "react-icons/fa";
