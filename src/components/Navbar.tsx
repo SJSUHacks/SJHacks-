@@ -11,13 +11,29 @@ export default function Navbar(): JSX.Element {
   return (
     <nav className="relative z-10 flex justify-between items-center p-6">
       {/* Logo */}
-      <div>
+      <div className="flex flex-row gap-3 items-center">
         <Image
           src="/assets/logo.svg"
-          alt="SJHacks Logo"
+          alt="ACM Logo"
+          className="object-contain"
           width={50}
           height={50}
         />
+         <Image
+          src="/assets/IDEASlogoblack.png"
+          alt="IDEAS Logo"
+          className="object-contain"
+          width={100}
+          height={100}
+        />
+         <Image
+          src="/assets/SVCE_LogoBLACK.png"
+          alt="SVCE Logo"
+          className="object-contain"
+          width={200}
+          height={100}
+        />
+      
       </div>
 
       {/* Desktop Menu */}
