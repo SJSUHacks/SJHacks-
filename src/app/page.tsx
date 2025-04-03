@@ -104,8 +104,8 @@ export default function Home() {
                   <Image 
                     src="/assets/sponsors/sprintlogo.png" 
                     alt="Sprint logo" 
-                    width={150} 
-                    height={50} 
+                    width={300} 
+                    height={100}
                     className="object-contain"
                   />
                 </a>
