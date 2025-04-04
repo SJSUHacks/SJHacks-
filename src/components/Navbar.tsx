@@ -14,10 +14,17 @@ export default function Navbar(): JSX.Element {
       <div className="flex flex-row gap-3 items-center">
         <Image
           src="/assets/logo.svg"
-          alt="ACM Logo"
+          alt="SJhacks Logo"
           className="object-contain"
           width={50}
           height={50}
+        />
+         <Image
+          src="/assets/ACM-logo.png"
+          alt="ACM Logo"
+          className="object-contain"
+          width={80}
+          height={80}
         />
          <Image
           src="/assets/IDEASlogoblack.png"
@@ -38,16 +45,16 @@ export default function Navbar(): JSX.Element {
 
       {/* Desktop Menu */}
       <div className="hidden md:flex gap-8 items-center">
-        <Link href="#home" className="text-[#01404B] font-medium text-2xl">
+        <Link href="#home" className="text-[#01404B] font-medium text-xl">
           Home
         </Link>
-        <Link href="#about" className="text-[#01404B] font-medium text-2xl">
+        <Link href="#about" className="text-[#01404B] font-medium text-xl">
           About Us
         </Link>
         <a
           href="mailto:organizer@sjhacks.com"
           target="_blank"
-          className="border-2 border-[#01404B] px-4 py-2 rounded-md text-[#01404B] font-medium text-2xl transition-colors ease-in-out duration-300 hover:bg-[#01404B] hover:text-[#ffe88a]"
+          className="border-2 border-[#01404B] px-4 py-2 rounded-md text-[#01404B] font-medium text-xl transition-colors ease-in-out duration-300 hover:bg-[#01404B] hover:text-[#ffe88a]"
         >
           Sponsor Us
         </a>
