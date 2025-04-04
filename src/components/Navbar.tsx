@@ -11,29 +11,46 @@ export default function Navbar(): JSX.Element {
   return (
     <nav className="relative z-10 flex justify-between items-center p-6">
       {/* Logo */}
-      <div>
+      <div className="flex flex-row gap-3 items-center">
         <Image
           src="/assets/logo.svg"
-          alt="SJHacks Logo"
+          alt="ACM Logo"
+          className="object-contain"
           width={50}
           height={50}
         />
+         <Image
+          src="/assets/IDEASlogoblack.png"
+          alt="IDEAS Logo"
+          className="object-contain"
+          width={100}
+          height={100}
+        />
+         <Image
+          src="/assets/SVCE_LogoBLACK.png"
+          alt="SVCE Logo"
+          className="object-contain"
+          width={200}
+          height={100}
+        />
+      
       </div>
 
       {/* Desktop Menu */}
       <div className="hidden md:flex gap-8 items-center">
-        <Link href="/" className="text-[#01404B] font-medium text-2xl">
+        <Link href="#home" className="text-[#01404B] font-medium text-2xl">
           Home
         </Link>
         <Link href="#about" className="text-[#01404B] font-medium text-2xl">
           About Us
         </Link>
-        <Link
-          href="#sponsor"
-          className="border-2 border-[#01404B] px-4 py-2 rounded-md text-[#01404B] font-medium text-2xl hover:bg-[#01404B] hover:text-[#ffe88a]"
+        <a
+          href="mailto:organizer@sjhacks.com"
+          target="_blank"
+          className="border-2 border-[#01404B] px-4 py-2 rounded-md text-[#01404B] font-medium text-2xl transition-colors ease-in-out duration-300 hover:bg-[#01404B] hover:text-[#ffe88a]"
         >
           Sponsor Us
-        </Link>
+        </a>
       </div>
 
       {/* Hamburger Menu Button */}
@@ -51,12 +68,12 @@ export default function Navbar(): JSX.Element {
 
       {/* Mobile Menu */}
       <div
-        className={`fixed inset-0 w-screen h-screen bg-[#026374] flex flex-col items-center justify-center gap-8 transition-opacity duration-300 ease-in-out ${
-          isOpen ? "opacity-100 visible z-10" : "opacity-0 invisible"
+        className={`fixed inset-0 w-screen h-screen bg-[#026374] flex flex-col items-center justify-center gap-8 transition-all duration-300 ease-in-out ${
+          isOpen ? "opacity-100 visible z-10" : "ease-in-out opacity-0 invisible z-0"
         }`}
       >
         <Link
-          href="/"
+          href="#home"
           className="text-white font-medium text-2xl"
           onClick={() => setIsOpen(false)}
         >
@@ -69,13 +86,14 @@ export default function Navbar(): JSX.Element {
         >
           About Us
         </Link>
-        <Link
-          href="#sponsor"
+        <a
+          href="mailto:organizer@sjhacks.com"
+          target="_blank"
           className="border-2 border-white px-4 py-2 rounded-md text-white font-medium text-2xl"
           onClick={() => setIsOpen(false)}
         >
           Sponsor Us
-        </Link>
+        </a>
       </div>
     </nav>
   );

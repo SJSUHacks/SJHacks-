@@ -14,7 +14,9 @@
     --foreground: #ededed;
   }
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: var(--font-poppins);
   color: var(--foreground);
