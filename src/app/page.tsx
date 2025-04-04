@@ -5,11 +5,19 @@ import Link from "next/link";
 import { FaInstagram } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
 import RegisterButton from '@/components/sections/RegisterButton';
+import Placeholder from "@/components/Placeholder";
 
 
 export default function Home() {
+ 
+
   return (
-    <div>
+    <div id="home" >
+       {/* Navigation */}
+        <div className="sticky top-0 bg-gradient-to-b from-[#FFF3B8] to-[#FFE88D] z-50 ">
+            <Navbar />
+        </div>
+      
       <div className="relative bg-gradient-to-b from-[#FFF3B8] to-[#FFE88D] text-[#01404B] h-screen">
         {/* SVG Background */}
         <div className="absolute inset-0 z-0">
@@ -20,21 +28,22 @@ export default function Home() {
             className="object-cover object-center"
             priority
           />
-      </div>
+        </div>
 
-        {/* Navigation */}
-        <Navbar />
-
+  
+    
         <div className="relative flex items-center justify-center flex-col pt-12 space-y-3">
           <h2 className="font-semibold text-2xl">April 26th - 27th, 2025</h2>
           <h1 className="font-extrabold text-7xl animate-bounce-sm">&lt;SJHacks/&gt;</h1>
           <RegisterButton />
         </div>
       </div>
-      <div className="bg-gradient-to-b from-[#31F5FF] to-[#B0FBFF] flex flex-col gap-60">
-
+      
+      <div className="bg-gradient-to-b from-[#31F5FF] to-[#B0FBFF] flex flex-col gap-20">
+      
         {/* About Us Section */}
         <section id="about" className="pt-36">
+       
           <div className="container mx-auto px-6">
             <div className="flex flex-col md:flex-row items-start gap-16">
               <div className="md:w-1/3">
@@ -52,17 +61,27 @@ export default function Home() {
             </div>
               
            
-           
+            
 
           </div>
+
           
         </section>
+
         {/* Tracks Section */}
         <section id="tracks" className="">
-          <div className="container mx-auto px-6">
+          <div className="container mx-auto px-6 flex justify-center flex-col">
             <h2 className="font-bold text-5xl text-[#01404B] mb-16">Tracks</h2>
-            <p className="text-xl text-[#01404B] leading-relaxed text-center">
-              Coming Soon!
+            
+            <div className="flex w-full mt-20">
+              <Placeholder/>
+            </div>
+            
+         
+            
+            <p className="text-xl text-[#01404B] leading-relaxed text-center mt-20">
+                 
+               {"We're working on it!"}
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {/* Track cards would go here */}
@@ -70,14 +89,16 @@ export default function Home() {
             </div>
           </div>
         </section>
-        {/* Sponsors Section 
+     
+     {/* Sponsors Section 
       
       TO-DO:
       - Add sponsor logos
       - plus make it link to sponsor website?
       */}
+
         <section id="sponsors" className="relative">
-          <div className="container mx-auto px-6 justify-center flex flex-col items-center">
+          <div className="container mx-auto px-6 justify-center flex flex-col">
             <h2 className="font-bold text-5xl text-[#01404B] mb-16">
               Sponsors
             </h2>

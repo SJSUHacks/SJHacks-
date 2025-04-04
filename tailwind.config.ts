@@ -16,6 +16,13 @@ export default {
         poppins: ["var(--font-poppins)", "sans-serif"],
       },
       keyframes: {
+       
+         sway: {
+          '0%, 100%': { transform: 'rotate(-2deg)', transitionTimingFunction: "cubic-bezier(.55,1.6,.33,-0.04)"},
+          '50%': { transform: 'rotate(2deg)',},
+         
+          
+        },
         wiggle: {
           '0%': { transform: 'rotate(-4deg)',},
           '25%': { transform: 'rotate(0deg)',},
@@ -29,15 +36,31 @@ export default {
             transform: 'translatey(-8%)',
             transitionTimingFunction: "cubic-bezier(.2,-0.05,.55,.97)"
           },
-        '50%': {
-          transform: "none",
-          transitionTimingFunction: "cubic-bezier(0,0,.5,.96)"
-        }
-}
+          '50%': {
+            transform: "none",
+            transitionTimingFunction: "cubic-bezier(0,0,.5,.96)"
+          }
+
+        },
+         particle: {
+          '0%': {
+            opacity: '1',
+            transform: 'translate(0, 0) scale(1)',
+          },
+          '100%': {
+            opacity: '0',
+            transform: 'translate(var(--x), var(--y)) scale(0.5)',
+          },
+        },
+        
+
       },
       animation: {
          "wiggle": "wiggle 0.5s cubic-bezier(.06,.68,.66,1.05) alternate",
-         "bounce-sm": "smbounce 1.0s infinite"
+         "bounce-sm": "smbounce 1.0s infinite",
+        "particle": "particle 2.0s ease-out forwards",
+        "mascot": "sway 1s infinite "
+        
       }
     },
   },
