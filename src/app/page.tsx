@@ -34,8 +34,11 @@ export default function Home() {
     
         <div className="relative flex items-center justify-center flex-col pt-12 space-y-3">
           <h2 className="font-semibold text-2xl">April 26th - 27th, 2025</h2>
+           
           <h1 className="font-extrabold text-7xl animate-bounce-sm">&lt;SJHacks/&gt;</h1>
+          <h2 className=" text-2xl">BBC 032 @ San José State University + Zoom</h2>
           <RegisterButton />
+          
         </div>
       </div>
       
@@ -48,23 +51,26 @@ export default function Home() {
             <div className="flex flex-col md:flex-row items-start gap-16">
               <div className="md:w-1/3">
                 <h2 className="font-bold text-5xl text-[#01404B]">About Us</h2>
+                
               </div>
               <div className="md:w-2/3">
                 <p className="text-xl text-[#01404B] leading-relaxed">  
-                  SJHacks is a 24-hour, in-person hackathon in San Jose designed
+                  SJHacks is a 24-hour hybrid hackathon at San José State University, designed
                   to bring together changemakers from all backgrounds. Whether
                   you are a coder, designer, or just passionate about solving
                   problems, this event offers a space for you to collaborate,
                   innovate, and create solutions that make a difference.
                 </p>
+             
               </div>
+
             </div>
               
            
             
 
           </div>
-
+          
           
         </section>
 
