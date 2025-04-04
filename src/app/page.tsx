@@ -36,7 +36,7 @@ export default function Home() {
           <h2 className="font-semibold text-2xl">April 26th - 27th, 2025</h2>
            
           <h1 className="font-extrabold text-7xl animate-bounce-sm">&lt;SJHacks/&gt;</h1>
-          <h2 className=" text-2xl">BBC 032 @ San José State University + Zoom</h2>
+          <h2 className=" text-xl md:text-2xl text-center">BBC 032 @ San José State University + Zoom</h2>
           <RegisterButton />
           
         </div>

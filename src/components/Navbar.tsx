@@ -11,32 +11,32 @@ export default function Navbar(): JSX.Element {
   return (
     <nav className="relative z-10 flex justify-between items-center p-6">
       {/* Logo */}
-      <div className="flex flex-row gap-3 items-center">
+      <div className="flex max-w-[30%] flex-row gap-3 items-center">
         <Image
           src="/assets/logo.svg"
           alt="SJhacks Logo"
-          className="object-contain"
+          className="object-contain w-[35%] md:w-[10%]"
           width={50}
           height={50}
         />
          <Image
           src="/assets/ACM-logo.png"
           alt="ACM Logo"
-          className="object-contain"
+          className="object-contain w-[50%] md:w-[20%]"
           width={80}
           height={80}
         />
          <Image
           src="/assets/IDEASlogoblack.png"
           alt="IDEAS Logo"
-          className="object-contain"
+          className="object-contain  md:w-[50%]"
           width={100}
           height={100}
         />
          <Image
           src="/assets/SVCE_LogoBLACK.png"
           alt="SVCE Logo"
-          className="object-contain"
+          className="object-contain "
           width={200}
           height={100}
         />
@@ -62,7 +62,7 @@ export default function Navbar(): JSX.Element {
 
       {/* Hamburger Menu Button */}
       <button
-        className="md:hidden text-[#01404B] focus:outline-none z-20 fixed top-7 right-7"
+        className="md:hidden text-[#01404B] focus:outline-none z-20 sticky top-7 right-7"
         onClick={() => setIsOpen((prev) => !prev)}
         aria-label="Toggle Navigation Menu"
       >
