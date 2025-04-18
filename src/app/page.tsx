@@ -4,7 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaInstagram } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
-import RegisterButton from '@/components/sections/RegisterButton';
 import Placeholder from "@/components/Placeholder";
 
 
@@ -115,7 +114,7 @@ export default function Home() {
             </div>
 
             <div className="flex flex-col">
-              <div className="font-semibold">Q: I couldn't find a team. Can I still find one?</div>
+              <div className="font-semibold">{"Q: I couldn't find a team. Can I still find one?"}</div>
               <div className="">A: Yes! You may network with participants who have registered in the event to forge a team</div>
           
             </div>
