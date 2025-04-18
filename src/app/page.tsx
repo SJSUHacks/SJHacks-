@@ -36,8 +36,8 @@ export default function Home() {
           <h2 className="font-semibold text-2xl">April 26th - 27th, 2025</h2>
            
           <h1 className="font-extrabold text-7xl animate-bounce-sm">&lt;SJHacks/&gt;</h1>
-          <h2 className=" text-xl md:text-2xl text-center">BBC 032 @ San José State University + Zoom</h2>
-          <RegisterButton />
+          <h2 className=" text-xl md:text-2xl text-center">Student Union Meeting Room 4A @ San José State University + Zoom</h2>
+         
           
         </div>
       </div>
@@ -48,12 +48,12 @@ export default function Home() {
         <section id="about" className="pt-36">
        
           <div className="container mx-auto px-6">
-            <div className="flex flex-col md:flex-row items-start gap-16">
-              <div className="md:w-1/3">
+            <div className="flex flex-col items-start gap-16">
+              <div className="">
                 <h2 className="font-bold text-5xl text-[#01404B]">About Us</h2>
                 
               </div>
-              <div className="md:w-2/3">
+              <div className="flex">
                 <p className="text-xl text-[#01404B] leading-relaxed">  
                   SJHacks is a 24-hour hybrid hackathon at San José State University, designed
                   to bring together changemakers from all backgrounds. Whether
@@ -74,7 +74,72 @@ export default function Home() {
           
         </section>
 
-        {/* Tracks Section */}
+        <section id="FAQ" className="">
+       
+       <div className="container mx-auto px-6">
+         <div className="flex flex-col items-start gap-16">
+           <div className="">
+             <h2 className="font-bold text-5xl text-[#01404B]">FAQ</h2>
+             
+           </div>
+           <div className="flex flex-col gap-5 justify-center text-black text-xl">
+
+            <div className="flex flex-col">
+              <div className="font-semibold">Q: When will the event take place in-person?</div>
+              <div className="">A: The event will be in-person on Sunday, April 27th, from 2:30PM-5:30PM</div>
+            </div>
+
+            <div className="flex flex-col">
+              <div className="font-semibold">Q: Is the hackathon beginner friendly?</div>
+              <div className="">A: Absolutely!</div>
+          
+            </div>
+
+            <div className="flex flex-col">
+              <div className="font-semibold">Q: Do I need to be a CS student?</div>
+              <div className="">A: Nope! This hackathon is open to all majors</div>
+          
+            </div>
+
+            <div className="flex flex-col">
+              <div className="font-semibold">Q: What are the tracks?</div>
+              <div className="">A: Tracks will be revealed during the first day of the event in person
+              </div>
+          
+            </div>
+
+            <div className="flex flex-col">
+              <div className="font-semibold">Q: Will everyone be able to show up in person?</div>
+              <div className="">A: The top 20 teams will be selected to continue to the final round of judging in-person </div>
+          
+            </div>
+
+            <div className="flex flex-col">
+              <div className="font-semibold">Q: I couldn't find a team. Can I still find one?</div>
+              <div className="">A: Yes! You may network with participants who have registered in the event to forge a team</div>
+          
+            </div>
+
+            <div className="flex flex-col">
+              <div className="font-semibold">Q: Is it mandatory to participate in the Zoom on the first day?</div>
+              <div className="">A: The Zoom will be our opening ceremony. All participants are mandated to show up </div>
+          
+            </div>
+            
+           </div>
+           
+
+            </div>
+           
+        
+         
+
+       </div>
+       
+       
+     </section>
+
+{/*        
         <section id="tracks" className="">
           <div className="container mx-auto px-6 flex justify-center flex-col">
             <h2 className="font-bold text-5xl text-[#01404B] mb-16">Tracks</h2>
@@ -90,11 +155,11 @@ export default function Home() {
                {"We're working on it!"}
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              {/* Track cards would go here */}
-              {/* This is a placeholder for actual track content */}
+            
             </div>
           </div>
-        </section>
+          */}
+       {/* </section> */}
      
      {/* Sponsors Section 
       
@@ -109,7 +174,7 @@ export default function Home() {
               Sponsors
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8 mb-16 justify-items-center">
-              {/* <div className="bg-white p-8 rounded-2xl shadow-md flex items-center justify-center min-h-[120px]">
+              <div className="bg-white p-8 rounded-2xl shadow-md flex items-center justify-center min-h-[120px]">
                 <a 
                   href="https://fetch.ai/" 
                   target="_blank" 
@@ -125,9 +190,9 @@ export default function Home() {
                     style={{ objectPosition: 'center' }}
                   />
                 </a>
-              </div> */}
+              </div> 
 
-              <div className="bg-white p-8 rounded-2xl shadow-md flex items-center justify-center min-h-[120px]">
+              {/* <div className="bg-white p-8 rounded-2xl shadow-md flex items-center justify-center min-h-[120px]">
                 <a 
                   href="https://www.sprint.dev/" 
                   target="_blank" 
@@ -142,7 +207,7 @@ export default function Home() {
                     className="object-contain"
                   />
                 </a>
-              </div>
+              </div> */}
 
               <div className="bg-white p-8 rounded-2xl shadow-md flex items-center justify-center min-h-[120px]">
                 <a 
@@ -209,6 +274,7 @@ export default function Home() {
 
           </div>
         </section>
+        <Placeholder/>
         {/* Footer */}
         <footer className="text-white text-center">
           <Image
