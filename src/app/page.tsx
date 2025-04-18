@@ -286,7 +286,7 @@ export default function Home() {
           />
           <div className="bg-[#0097B2] mx-auto pt-36 pb-12 -mt-1">
             <div className="flex justify-center gap-6 mb-2">
-              <Link href="https://instagram.com" aria-label="Instagram">
+              <Link href="https://www.instagram.com/sjhacks._/" aria-label="Instagram">
                 <FaInstagram size={42} />
               </Link>
               <Link href="mailto:contact@sjhacks.org" aria-label="Email">
