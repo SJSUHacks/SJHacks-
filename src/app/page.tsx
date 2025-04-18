@@ -102,7 +102,7 @@ export default function Home() {
 
             <div className="flex flex-col">
               <div className="font-semibold">Q: What are the tracks?</div>
-              <div className="">A: Tracks will be revealed during the first day of the event in person
+              <div className="">A: Tracks will be revealed during the first day of the event on Zoom
               </div>
           
             </div>
