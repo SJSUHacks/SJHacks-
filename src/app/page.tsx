@@ -168,12 +168,12 @@ export default function Home() {
       */}
 
         <section id="sponsors" className="relative">
-          <div className="container mx-auto px-6  flex flex-col">
+          <div className="container mx-auto px-6 justify-items-center flex flex-col">
             <h2 className="font-bold text-5xl text-[#01404B] mb-16">
               Sponsors
             </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8 mb-16 justify-items-center">
-              <div className="bg-white p-8 rounded-2xl shadow-md flex items-center justify-center min-h-[120px]">
+            <div className="flex flex-row justify-center gap-8 mb-16">
+              {/* <div className="bg-white p-8 rounded-2xl shadow-md flex items-center justify-center min-h-[120px]">
                 <a 
                   href="https://fetch.ai/" 
                   target="_blank" 
@@ -189,7 +189,7 @@ export default function Home() {
                     style={{ objectPosition: 'center' }}
                   />
                 </a>
-              </div> 
+              </div>  */}
 
               {/* <div className="bg-white p-8 rounded-2xl shadow-md flex items-center justify-center min-h-[120px]">
                 <a 
