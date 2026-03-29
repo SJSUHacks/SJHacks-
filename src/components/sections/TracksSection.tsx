@@ -12,9 +12,8 @@ const TracksSection: React.FC = () => {
         </div>
 
         <p className="text-xl text-[#01404B] leading-relaxed text-center mt-20">
-          {"We're working on it!"}
+          {"Coming Soon!"}
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8"></div>
       </div>
     </section>
   );

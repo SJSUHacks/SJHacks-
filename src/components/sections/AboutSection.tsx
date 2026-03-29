@@ -6,7 +6,7 @@ const AboutSection: React.FC = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col items-start gap-16">
           <div className="">
-            <h2 className="font-bold text-5xl text-[#01404B]">About Us</h2>
+            <h2 className="font-bold text-5xl text-[#01404B]">About</h2>
           </div>
           <div className="flex">
             <p className="text-xl text-[#01404B] leading-relaxed">

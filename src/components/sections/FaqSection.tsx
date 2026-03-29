@@ -2,7 +2,7 @@ import React from "react";
 
 const FaqSection: React.FC = () => {
   return (
-    <section id="FAQ" className="">
+    <section id="faq" className="">
       <div className="container mx-auto px-6">
         <div className="flex flex-col items-start gap-16">
           <div className="">

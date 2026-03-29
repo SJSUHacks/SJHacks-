@@ -27,7 +27,28 @@ export default function Navbar(): JSX.Element {
           Home
         </Link>
         <Link href="#about" className="text-[#01404B] font-medium text-xl">
-          About Us
+          About
+        </Link>
+        <Link
+          href="#tracks"
+          className="text-[#01404B] font-medium text-xl"
+          onClick={() => setIsOpen(false)}
+        >
+          Tracks
+        </Link>
+        <Link
+          href="#sponsors"
+          className="text-[#01404B] font-medium text-xl"
+          onClick={() => setIsOpen(false)}
+        >
+          Sponsors
+        </Link>
+        <Link
+          href="#faq"
+          className="text-[#01404B] font-medium text-xl"
+          onClick={() => setIsOpen(false)}
+        >
+          FAQ
         </Link>
         <a
           href="mailto:organizer@sjhacks.com"
@@ -71,7 +92,28 @@ export default function Navbar(): JSX.Element {
           className="text-white font-medium text-2xl"
           onClick={() => setIsOpen(false)}
         >
-          About Us
+          About
+        </Link>
+        <Link
+          href="#tracks"
+          className="text-white font-medium text-2xl"
+          onClick={() => setIsOpen(false)}
+        >
+          Tracks
+        </Link>
+        <Link
+          href="#sponsors"
+          className="text-white font-medium text-2xl"
+          onClick={() => setIsOpen(false)}
+        >
+          Sponsors
+        </Link>
+        <Link
+          href="#faq"
+          className="text-white font-medium text-2xl"
+          onClick={() => setIsOpen(false)}
+        >
+          FAQ
         </Link>
         <a
           href="mailto:organizer@sjhacks.com"

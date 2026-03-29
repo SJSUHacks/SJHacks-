@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import RegisterButton from "../RegisterButton";
 
 const HeroSection: React.FC = () => {
   return (
@@ -17,14 +18,12 @@ const HeroSection: React.FC = () => {
         </div>
 
         <div className="relative flex items-center justify-center flex-col pt-12 space-y-3">
-          <h2 className="font-semibold text-2xl">April 26th - 27th, 2025</h2>
+          <h2 className="font-semibold text-2xl">April ? - ?, 2026</h2>
 
           <h1 className="font-extrabold text-7xl animate-bounce-sm">
             &lt;SJHacks/&gt;
           </h1>
-          <h2 className=" text-xl md:text-2xl text-center">
-            Student Union Meeting Room 4B @ San José State University + Zoom
-          </h2>
+          <RegisterButton />
         </div>
       </div>
     </section>
