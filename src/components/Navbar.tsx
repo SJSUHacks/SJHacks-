@@ -15,32 +15,10 @@ export default function Navbar(): JSX.Element {
         <Image
           src="/assets/logo.svg"
           alt="SJhacks Logo"
-          className="object-contain w-[35%] md:w-[10%]"
+          className="object-contain w-[35%] md:w-[20%]"
           width={50}
           height={50}
         />
-         <Image
-          src="/assets/ACM-logo.png"
-          alt="ACM Logo"
-          className="object-contain w-[50%] md:w-[20%]"
-          width={80}
-          height={80}
-        />
-         <Image
-          src="/assets/IDEASlogoblack.png"
-          alt="IDEAS Logo"
-          className="object-contain  md:w-[50%]"
-          width={100}
-          height={100}
-        />
-         <Image
-          src="/assets/SVCE_LogoBLACK.png"
-          alt="SVCE Logo"
-          className="object-contain "
-          width={200}
-          height={100}
-        />
-      
       </div>
 
       {/* Desktop Menu */}
@@ -76,7 +54,9 @@ export default function Navbar(): JSX.Element {
       {/* Mobile Menu */}
       <div
         className={`fixed inset-0 w-screen h-screen bg-[#026374] flex flex-col items-center justify-center gap-8 transition-all duration-300 ease-in-out ${
-          isOpen ? "opacity-100 visible z-10" : "ease-in-out opacity-0 invisible z-0"
+          isOpen
+            ? "opacity-100 visible z-10"
+            : "ease-in-out opacity-0 invisible z-0"
         }`}
       >
         <Link

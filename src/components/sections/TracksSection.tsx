@@ -1,16 +1,23 @@
-import React from 'react';
+import React from "react";
+import Placeholder from "../Placeholder";
 
 const TracksSection: React.FC = () => {
   return (
-    <section id="tracks" className="tracks-section">
-      <div className="section-container">
-        <h2 className="section-title">Tracks</h2>
-        <div className="tracks-content">
-          {/* Tracks will be added here */}
+    <section id="tracks" className="">
+      <div className="container mx-auto px-6 flex justify-center flex-col">
+        <h2 className="font-bold text-5xl text-[#01404B] mb-16">Tracks</h2>
+
+        <div className="flex w-full mt-20">
+          <Placeholder />
         </div>
+
+        <p className="text-xl text-[#01404B] leading-relaxed text-center mt-20">
+          {"We're working on it!"}
+        </p>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8"></div>
       </div>
     </section>
   );
 };
 
-export default TracksSection; 
+export default TracksSection;

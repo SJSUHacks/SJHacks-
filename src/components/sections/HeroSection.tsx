@@ -1,36 +1,34 @@
-import React from 'react';
-import Image from 'next/image';
+import React from "react";
+import Image from "next/image";
 
 const HeroSection: React.FC = () => {
   return (
     <section id="home" className="hero-section">
-      <div className="hero-content">
-        <div className="date">April 8th - 9th, 2025</div>
-        <h1 className="site-title">&lt;SJHacks/&gt;</h1>
-        
-        <div className="holder">
-          <h2 className="tagline">
-            Join SJSU&apos;s <span className="yellow">biggest interdisciplinary hackathon</span> of 
-            Silicon Valley and be the <span className="yellow">first</span> to know when 
-            the <span className="yellow">applications</span> are live!
-          </h2>
-          
-          <div className="details">
-            <div className="info">
-              <Image src="/assets/calendar.svg" alt="SiliconXHacks Date" className="infologo" width={24} height={24} />
-              April 2025
-            </div>
-            <div className="info">
-              <Image src="/assets/location.svg" alt="SiliconXHacks location" className="infologo" width={24} height={24} />
-              San Jose State University
-            </div>
-          </div>
+      <div className="relative bg-gradient-to-b from-[#FFF3B8] to-[#FFE88D] text-[#01404B] h-screen">
+        {/* SVG Background */}
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="/assets/design.svg"
+            alt="San Jose Skyline"
+            fill
+            className="object-cover object-center"
+            priority
+          />
+        </div>
 
-          <a href="#register" className="register-button">Register →</a>
+        <div className="relative flex items-center justify-center flex-col pt-12 space-y-3">
+          <h2 className="font-semibold text-2xl">April 26th - 27th, 2025</h2>
+
+          <h1 className="font-extrabold text-7xl animate-bounce-sm">
+            &lt;SJHacks/&gt;
+          </h1>
+          <h2 className=" text-xl md:text-2xl text-center">
+            Student Union Meeting Room 4B @ San José State University + Zoom
+          </h2>
         </div>
       </div>
     </section>
   );
 };
 
-export default HeroSection; 
+export default HeroSection;
