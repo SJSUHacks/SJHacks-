@@ -15,6 +15,29 @@ const Footer: React.FC = () => {
         className="w-full"
       />
       <div className="bg-[#0097B2] mx-auto pt-36 pb-12 -mt-1">
+        <div className="mx-auto mb-10 flex max-w-5xl flex-wrap items-center justify-center gap-8 px-6 md:gap-12">
+          <Image
+            src="/assets/ACM-logo.png"
+            alt="ACM logo"
+            width={150}
+            height={72}
+            className="h-auto max-h-14 w-auto object-contain"
+          />
+          <Image
+            src="/assets/IDEASlogoblack.png"
+            alt="IDEAS logo"
+            width={150}
+            height={72}
+            className="h-auto max-h-14 w-auto object-contain"
+          />
+          <Image
+            src="/assets/SVCE_LogoBLACK.png"
+            alt="SVCE logo"
+            width={150}
+            height={72}
+            className="h-auto max-h-14 w-auto object-contain"
+          />
+        </div>
         <div className="flex justify-center gap-6 mb-2">
           <Link
             href="https://www.instagram.com/sjhacks._/"

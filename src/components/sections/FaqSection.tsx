@@ -1,8 +1,10 @@
 import React from "react";
+import Placeholder from "../Placeholder";
 
 const FaqSection: React.FC = () => {
   return (
-    <section id="faq" className="">
+    <section id="faq" className="relative">
+      {/*
       <div className="container mx-auto px-6">
         <div className="flex flex-col items-start gap-16">
           <div className="">
@@ -80,6 +82,16 @@ const FaqSection: React.FC = () => {
             </div>
           </div>
         </div>
+      </div>
+      */}
+      <div className="container mx-auto flex flex-col justify-items-center px-6">
+        <h2 className="mb-16 font-bold text-5xl text-[#01404B]">FAQ</h2>
+        <div className="mt-20 flex w-full">
+          <Placeholder />
+        </div>
+        <p className="mt-20 text-center text-xl leading-relaxed text-[#01404B]">
+          Coming Soon!
+        </p>
       </div>
     </section>
   );
