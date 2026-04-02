@@ -21,4 +21,5 @@ body {
   font-family: var(--font-poppins);
   color: var(--foreground);
   background: var(--background);
+  overflow-x: hidden;
 }

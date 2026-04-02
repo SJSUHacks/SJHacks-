@@ -9,7 +9,7 @@ export default function Navbar(): JSX.Element {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
   return (
-    <nav className="relative z-10 flex justify-between items-center p-6">
+    <nav className="absolute inset-x-0 top-0 z-30 flex justify-between items-center p-6 bg-transparent">
       {/* Logo */}
       <div className="flex max-w-[30%] flex-row gap-3 items-center">
         <Image
