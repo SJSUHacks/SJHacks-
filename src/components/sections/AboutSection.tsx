@@ -18,6 +18,7 @@ const AboutSection: React.FC = () => {
               difference.
             </p>
           </div>
+         
         </div>
       </div>
     </section>
