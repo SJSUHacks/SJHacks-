@@ -40,12 +40,12 @@ const Footer: React.FC = () => {
         </div>
         <div className="flex justify-center gap-6 mb-2">
           <Link
-            href="https://www.instagram.com/sjhacks._/"
+            href="https://www.instagram.com/sjhacks_/"
             aria-label="Instagram"
           >
             <FaInstagram size={42} />
           </Link>
-          <Link href="mailto:contact@sjhacks.org" aria-label="Email">
+          <Link href="mailto:hackathonsjhacks@gmail.com" aria-label="Email">
             <MdOutlineEmail size={42} />
           </Link>
         </div>

@@ -51,7 +51,7 @@ export default function Navbar(): JSX.Element {
           FAQ
         </Link>
         <a
-          href="mailto:organizer@sjhacks.com"
+          href="mailto:hackathonsjhacks@gmail.com"
           target="_blank"
           className="border-2 border-[#01404B] px-4 py-2 rounded-md text-[#01404B] font-medium text-xl transition-colors ease-in-out duration-300 hover:bg-[#01404B] hover:text-[#ffe88a]"
         >
