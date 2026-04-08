@@ -1,5 +1,4 @@
 import React from "react";
-import Placeholder from "../Placeholder";
 
 const TracksSection: React.FC = () => {
   return (
