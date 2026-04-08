@@ -2,8 +2,8 @@ import React from "react";
 const SponsorsSection: React.FC = () => {
   return (
     <section id="sponsors" className="relative">
-      <div className="container mx-auto px-6 justify-items-center flex flex-col">
-        <h2 className="font-bold text-5xl text-[#01404B] mb-16">Sponsors</h2>
+      <div className="container mx-auto px-6 pt-36 justify-items-center flex flex-col">
+        <h2 className="font-bold text-5xl text-[#01404B]">Sponsors</h2>
         {/* <div className="flex w-full mt-20">
           <Placeholder />
         </div> */}
@@ -41,7 +41,7 @@ const SponsorsSection: React.FC = () => {
           </div>
 
             <div className="">
-            <h2 className="font-semibold text-3xl text-[#01404B]">Past Sponsors</h2>
+            <h2 className="font-semibold text-3xl text-[#01404B] pt-8">Past Sponsors</h2>
           </div>
           <div className="flex flex-wrap gap-8 items-center">
             <img

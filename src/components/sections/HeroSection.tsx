@@ -101,14 +101,14 @@ const HeroSection: React.FC = () => {
           transform: `translate3d(0, ${heroCopyY}px, 0)`,
         }}
       >
-        <h2 className="relative z-20 mb-[-1rem] text-2xl font-semibold md:mb-[-2rem] md:text-[1.8rem]">
+        <h2 className="relative z-20 mb-[-1rem] text-2xl font-semibold md:mb-[-1rem] md:text-[1.8rem]">
           April 25th - 26th, 2026
         </h2>
         <h1 className="relative z-10 mb-[-0.5rem] text-[3.2rem] font-extrabold tracking-tight sm:text-[5rem] md:mb-[-1rem] md:text-[6rem]">
           &lt;SJHacks/&gt;
         </h1>
         <div
-          className="pointer-events-none absolute left-[14%] top-[18%] z-20 h-[9rem] w-[21rem] transition-transform duration-150 ease-out md:h-[10rem] md:w-[24rem]"
+          className="pointer-events-none absolute left-[14%] top-[20%] z-20 h-[9rem] w-[21rem] transition-transform duration-150 ease-out md:h-[10rem] md:w-[24rem]"
           style={{ transform: `translate3d(${cloudBX}px, ${cloudBY}px, 0)` }}
           aria-hidden="true"
         >
@@ -122,7 +122,7 @@ const HeroSection: React.FC = () => {
         <p className="relative z-30 text-2xl font-semibold text-[#01404B]/85 md:text-[1.8rem]">
           Guildhouse @ San Jose, CA
         </p>
-        <div className="relative z-30 mt-3">
+        <div className="relative z-30 mt-8 animate-bounce-sm">
           <RegisterButton />
         </div>
       </div>

@@ -4,87 +4,58 @@ import Placeholder from "../Placeholder";
 const FaqSection: React.FC = () => {
   return (
     <section id="faq" className="relative">
-      {/*
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-6 pt-36">
         <div className="flex flex-col items-start gap-16">
-          <div className="">
-            <h2 className="font-bold text-5xl text-[#01404B]">FAQ</h2>
+          <div>
+        <h2 className="font-bold text-5xl text-[#01404B]">FAQ</h2>
           </div>
-          <div className="flex flex-col gap-5 justify-center text-black text-xl">
-            <div className="flex flex-col">
-              <div className="font-semibold">
-                Q: Is it mandatory to be present at the Zoom kickoff?
-              </div>
-              <div className="">
-                A: There must be at least one member per team to be present at
-                the Zoom for its duration.
-              </div>
-            </div>
 
-            <div className="flex flex-col">
-              <div className="font-semibold">
-                Q: Can I invite someone off-campus to the hackathon?
-              </div>
-              <div className="">
-                A: Unfortunately, this hackathon is exclusive to SJSU students
-                only.
-              </div>
-            </div>
+          <div className="flex flex-col justify-center gap-5 text-xl text-black">
+        <div className="flex flex-col">
+          <div className="font-semibold">
+            Q: Will this hackathon be open to other students?
+          </div>
+          <div>
+            A: This event is open to all currently enrolled students
+            attending an accredited university or community college who are
+            +18. Priority registration will be given to SJSU students
+            during the initial registration period.
+          </div>
+        </div>
 
-            <div className="flex flex-col">
-              <div className="font-semibold">Q: When are submissions due?</div>
-              <div className="">
-                A: Submissions are due Sunday April 27th @ 10:00 AM. A Devpost
-                link will be provided.
-              </div>
-            </div>
+        <div className="flex flex-col">
+          <div className="font-semibold">Q: Is this an overnight hackathon?</div>
+          <div>
+            A: Yes! This hackathon will be overnight at Guildhouse. Please
+            be sure to prepare hotel or commute arrangements, or a sleep
+            bag if you choose to sleep at the location.
+          </div>
+        </div>
 
-            <div className="flex flex-col">
-              <div className="font-semibold">
-                Q: I registered for the hackathon, but I don&apos;t have a team
-                yet. Can I still participate?
-              </div>
-              <div className="">
-                A: Absolutely! Even if you don&apos;t have a team, The Discord
-                can be used for team formation and networking.
-              </div>
-            </div>
+        <div className="flex flex-col">
+          <div className="font-semibold">
+            Q: How many team members are permitted?
+          </div>
+          <div>
+            A: You may be in a maximum team of 4. You may also have the
+            option to work on your own.
+          </div>
+        </div>
 
-            <div className="flex flex-col">
-              <div className="font-semibold">
-                Q: When will the tracks be announced?
-              </div>
-              <div className="">
-                A: Tracks will be revealed during the Zoom kickoff.
-              </div>
-            </div>
-
-            <div className="flex flex-col">
-              <div className="font-semibold">
-                Q: Will everyone present their projects?
-              </div>
-              <div className="">
-                A: Once submitted, the top teams will be selected and announced
-                to move to the final judging round.
-              </div>
-            </div>
-
-            <div className="flex flex-col">
-              <div className="font-semibold">
-                Q: I didn&apos;t make the top bracket. Can I watch the finals
-                in-person?
-              </div>
-              <div className="">
-                A: Due to capacity, we are unable to permit audience members to
-                watch in-person. However, we&apos;ll be live streaming the event
-                for everyone to watch!
-              </div>
-            </div>
+        <div className="flex flex-col">
+          <div className="font-semibold">
+            Q: Am I allowed to bring guests to the hackathon?
+          </div>
+          <div>
+            A: Only competitors at the event with a valid badge (given at
+            the event) will be allowed entry to the event. Guests are
+            prohibited from participating.
+          </div>
+        </div>
           </div>
         </div>
       </div>
-      */}
-      <div className="container mx-auto flex flex-col justify-items-center px-6">
+      {/* <div className="container mx-auto flex flex-col justify-items-center px-6">
         <h2 className="mb-16 font-bold text-5xl text-[#01404B]">FAQ</h2>
         <div className="mt-20 flex w-full">
           <Placeholder />
@@ -92,7 +63,7 @@ const FaqSection: React.FC = () => {
         <p className="mt-20 text-center text-xl leading-relaxed text-[#01404B]">
           Coming Soon!
         </p>
-      </div>
+      </div> */}
     </section>
   );
 };
