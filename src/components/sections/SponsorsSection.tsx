@@ -64,6 +64,11 @@ const SponsorsSection: React.FC = () => {
               alt="Monster Logo"
               className="w-48 h-48 object-cover"
             />
+             <img
+              src="/assets/past-sponsors/jetson.png"
+              alt="Jetson Logo"
+              className="w-32 h-32 object-cover"
+            />
           </div>
       </div>
     </section>
