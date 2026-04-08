@@ -10,7 +10,7 @@ const AboutSection: React.FC = () => {
           </div>
           <div className="flex">
             <p className="text-xl text-[#01404B] leading-relaxed">
-              SJHacks is a 24-hour hybrid hackathon at San José State
+              SJHacks is a 24-hour in-person hackathon at San José State
               University, designed to bring together changemakers from all
               backgrounds. Whether you are a coder, designer, or just passionate
               about solving problems, this event offers a space for you to
@@ -18,6 +18,28 @@ const AboutSection: React.FC = () => {
               difference.
             </p>
           </div>
+
+          <p className="text-2xl text-[#01404B] font-semibold leading-relaxed">
+            {"Featured on "}
+               <a
+            href="https://www.pbs.org/video/ai-today-f0gyob/"
+            className="text-[#0097B2] underline"
+          >
+            PBS Connect the Bay: AI Today!
+          </a>
+            <img
+              src="/assets/pbs_logo.png"
+              alt="PBS Logo"
+              className="h-48 object-contain"
+            />
+          </p>
+        
+          
+    
+
+ 
+
+    
          
         </div>
       </div>
