@@ -11,13 +11,15 @@ export default function Navbar(): JSX.Element {
   return (
     <nav className="fixed inset-x-0 top-0 z-30 flex justify-between items-center p-6 bg-transparent">
       {/* Logo */}
-      <div className="flex max-w-[30%] flex-row gap-3 items-center">
+      <div className="flex flex-row gap-3 items-center">
         <Image
           src="/assets/logo.svg"
           alt="SJhacks Logo"
-          className="object-contain w-[35%] md:w-[20%]"
-          width={50}
-          height={50}
+          width={120}
+          height={120}
+          priority
+          className="h-12 sm:h-14 md:h-16 w-auto object-contain"
+          sizes="(max-width: 640px) 48px, (max-width: 768px) 56px, 64px"
         />
       </div>
 
