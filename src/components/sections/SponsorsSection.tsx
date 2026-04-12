@@ -24,7 +24,7 @@ const SponsorsSection: React.FC = () => {
             <Image src="/assets/current-sponsors/poke.png" alt="Poke Logo" fill className="object-contain" sizes="(max-width: 768px) 96px, 192px" />
           </div>
           <div className="relative h-20 md:h-40 lg:h-48 md:flex-1 min-w-[130px] md:min-w-0">
-            <Image src="/assets/current-sponsors/WITH-CYBER.png" alt="WITH CYBER Logo" fill className="object-contain" sizes="(max-width: 768px) 60px, 150px" />
+            <Image src="/assets/current-sponsors/WITH-Cyber.png" alt="WITH CYBER Logo" fill className="object-contain" sizes="(max-width: 768px) 60px, 150px" />
           </div>
           <div className="relative h-20 md:h-40 lg:h-48 md:flex-1 min-w-[100px] md:min-w-0">
             <Image src="/assets/current-sponsors/TEASPOON_LOGO.png" alt="Teaspoon Logo" fill className="object-contain" sizes="(max-width: 768px) 80px, 150px" />
