@@ -30,7 +30,7 @@ const SponsorsSection: React.FC = () => {
             <Image src="/assets/current-sponsors/TEASPOON_LOGO.png" alt="Teaspoon Logo" fill className="object-contain" sizes="(max-width: 768px) 80px, 150px" />
           </div>
           <div className="relative h-20 md:h-40 lg:h-48 min-w-[160px] w-56 md:w-80">
-            <Image src="/assets/current-sponsors/COLL_COB_Reversed.png" alt="SJSU College Logo" fill className="object-contain" sizes="(max-width: 768px) 224px, 320px" />
+            <Image src="/assets/current-sponsors/COLL_COB.png" alt="SJSU College Logo" fill className="object-contain" sizes="(max-width: 768px) 224px, 320px" />
           </div>
         </div>
 
