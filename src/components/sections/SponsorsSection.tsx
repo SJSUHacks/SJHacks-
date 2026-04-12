@@ -24,13 +24,13 @@ const SponsorsSection: React.FC = () => {
               className="h-12 md:h-24 md:flex-1 md:min-w-0 md:max-h-24 object-contain"
             />
              <img
-              src="/assets/current-sponsors/interaction.co.png"
-              alt="Interaction.co Logo"
+              src="/assets/current-sponsors/poke.png"
+              alt="Poke Logo"
               className="h-24 md:w-48 md:h-48 object-contain"
             />
              <img
-              src="/assets/current-sponsors/SJSU_College_of_Science_logo.png"
-              alt="SJSU College of Science Logo"
+              src="/assets/current-sponsors/WITH-CYBER.png"
+              alt="WITH CYBER Logo"
               className="h-8 md:h-24 md:flex-1 md:min-w-0 md:max-h-24 object-contain"
             />
               <img
