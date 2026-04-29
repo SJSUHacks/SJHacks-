@@ -31,27 +31,27 @@ export default function Navbar(): JSX.Element {
         <Link href="#about" className="text-[#01404B] font-medium text-xl">
           About
         </Link>
-        <Link
+        {/* <Link
           href="#tracks"
           className="text-[#01404B] font-medium text-xl"
           onClick={() => setIsOpen(false)}
         >
           Tracks
-        </Link>
+        </Link> */}
         <Link
           href="#sponsors"
           className="text-[#01404B] font-medium text-xl"
           onClick={() => setIsOpen(false)}
         >
-          Sponsors
+          Past Sponsors
         </Link>
-        <Link
+        {/* <Link
           href="#faq"
           className="text-[#01404B] font-medium text-xl"
           onClick={() => setIsOpen(false)}
         >
           FAQ
-        </Link>
+        </Link> */}
         <a
           href="mailto:hackathonsjhacks@gmail.com"
           target="_blank"
@@ -96,27 +96,27 @@ export default function Navbar(): JSX.Element {
         >
           About
         </Link>
-        <Link
+        {/* <Link
           href="#tracks"
           className="text-white font-medium text-2xl"
           onClick={() => setIsOpen(false)}
         >
           Tracks
-        </Link>
+        </Link> */}
         <Link
           href="#sponsors"
           className="text-white font-medium text-2xl"
           onClick={() => setIsOpen(false)}
         >
-          Sponsors
+          Past Sponsors
         </Link>
-        <Link
+        {/* <Link
           href="#faq"
           className="text-white font-medium text-2xl"
           onClick={() => setIsOpen(false)}
         >
           FAQ
-        </Link>
+        </Link> */}
         <a
           href="mailto:organizer@sjhacks.com"
           target="_blank"

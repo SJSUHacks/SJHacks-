@@ -17,7 +17,6 @@ const Footer: React.FC = () => {
       />
        <Placeholder/>
       <div className="bg-[#0097B2] mx-auto pt-36 pb-12 -mt-1">
-        
         <div className="mx-auto mb-10 flex max-w-5xl flex-wrap items-center justify-center gap-8 px-6 md:gap-12">
           <Image
             src="/assets/ACM-logo.png"

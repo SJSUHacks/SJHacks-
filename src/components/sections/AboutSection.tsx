@@ -33,14 +33,6 @@ const AboutSection: React.FC = () => {
               className="h-48 object-contain"
             />
           </p>
-        
-          
-    
-
- 
-
-    
-         
         </div>
       </div>
     </section>

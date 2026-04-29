@@ -101,9 +101,9 @@ const HeroSection: React.FC = () => {
           transform: `translate3d(0, ${heroCopyY}px, 0)`,
         }}
       >
-        <h2 className="relative z-20 mb-[-1rem] text-2xl font-semibold md:mb-[-1rem] md:text-[1.8rem]">
+        {/* <h2 className="relative z-20 mb-[-1rem] text-2xl font-semibold md:mb-[-1rem] md:text-[1.8rem]">
           April 25th - 26th, 2026
-        </h2>
+        </h2> */}
         <h1 className="relative z-10 mb-[-0.5rem] text-[3.2rem] font-extrabold tracking-tight sm:text-[5rem] md:mb-[-1rem] md:text-[6rem]">
           &lt;SJHacks/&gt;
         </h1>
@@ -119,12 +119,15 @@ const HeroSection: React.FC = () => {
             className="object-contain"
           />
         </div>
-        <p className="relative z-30 text-2xl font-semibold text-[#01404B]/85 md:text-[1.8rem]">
+        {/* <p className="relative z-30 text-2xl font-semibold text-[#01404B]/85 md:text-[1.8rem]">
           Guildhouse @ San Jose, CA
-        </p>
-        <div className="relative z-30 mt-8 animate-bounce-sm">
+        </p> */}
+        {/* <div className="relative z-30 mt-8 animate-bounce-sm">
           <RegisterButton />
-        </div>
+        </div> */}
+         <p className="relative z-30 text-2xl font-semibold text-[#01404B]/85 md:text-[1.5rem]">
+          Thank you for participating. See you in 2027!
+        </p>
       </div>
 
       <div>

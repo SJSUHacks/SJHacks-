@@ -13,9 +13,9 @@ export default function Home() {
       <HeroSection />
       <div className="bg-gradient-to-b from-[#31F5FF] to-[#B0FBFF] flex flex-col gap-20">
         <AboutSection />
-        <TracksSection />
+        {/* <TracksSection /> */}
         <SponsorsSection />
-        <FaqSection />
+        {/* <FaqSection /> */}
         <Footer />
       </div>
     </div>
