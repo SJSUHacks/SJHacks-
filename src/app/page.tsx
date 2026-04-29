@@ -1,8 +1,6 @@
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/sections/HeroSection";
 import AboutSection from "@/components/sections/AboutSection";
-import FaqSection from "@/components/sections/FaqSection";
-import TracksSection from "@/components/sections/TracksSection";
 import SponsorsSection from "@/components/sections/SponsorsSection";
 import Footer from "@/components/Footer";
 

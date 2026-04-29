@@ -2,7 +2,6 @@
 
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import RegisterButton from "../RegisterButton";
 
 const clamp = (value: number, min: number, max: number) =>
   Math.min(Math.max(value, min), max);
